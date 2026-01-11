@@ -35,9 +35,7 @@ app.post('/users', async (request, response) => {
   }
 })
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+
 
 app.listen(port, () => {
   console.log(`User service listening on port ${port}`)
